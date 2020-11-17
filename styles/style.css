@@ -1,0 +1,72 @@
+header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 100vh;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  background: red;
+  color: #3a2a2a;
+}
+
+header button {
+  border: 1px solid lightgray;
+  height: 30px;
+  width: 50px;
+  background: #f50707;
+  border-radius: 5px;
+  margin-left: 10px;
+  cursor: pointer;
+}
+
+header button:hover {
+  background-color: #13af13;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+
+.contace {
+  background: #f50707;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 100vh;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  background: blue;
+}
+
+.contace button {
+  background-color: inherit;
+  border: 1px solid lightgray;
+  border-radius: 5px;
+  height: 30px;
+  width: 60px;
+  cursor: pointer;
+  margin-right: 20px;
+}
+
+.contace button:hover {
+  background-color: red;
+}
+/*# sourceMappingURL=style.css.map */

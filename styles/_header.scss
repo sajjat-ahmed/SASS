@@ -1,0 +1,27 @@
+@mixin flexContent($direction, $background) {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  flex-direction: $direction;
+  background: $background;
+}
+
+header {
+  @include flexContent(column, red);
+
+  color: $textColor;
+  button {
+    border: 1px solid lightgray;
+    height: 30px;
+    width: 50px;
+    background: $primaryBtn;
+    border-radius: 5px;
+    margin-left: 10px;
+    cursor: pointer;
+
+    &:hover {
+      background-color: rgb(19, 175, 19);
+    }
+  }
+}
